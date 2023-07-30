@@ -1,0 +1,258 @@
+5  cd jogeeswar-project
+   56  clear
+   57  ls
+   58  git checkout aws-LiftAndShift
+   59  ls
+   60  git branch
+   61  git branches
+   62  clear
+   63  ls
+   64  ls
+   65  cd userdata/
+   66  ls
+   67  ls
+   68  cd
+   69  cd
+   70  clear
+   71  ls
+   72  ssh -i aws.pem centos@3.109.58.163
+   73  cd vprofile-project-aws-LiftAndShift/
+   74  ls
+   75  cd src
+   76  ls
+   77  cd main/
+   78  clear
+   79  ls
+   80  cd resources/
+   81  ls
+   82  vim application.properties
+   83  ls
+   84  cd userdata/
+   85  ls
+   86  cd ..
+   87  clear
+   88  ls
+   89  cd src
+   90  ls
+   91  cd main
+   92  ls
+   93  cd resources/
+   94  clear
+   95  ls
+   96  vim application.properties
+   97  cat application.properties
+   98  clear
+   99  cd ../../../
+  100  ls
+  101  clear
+  102  mvn install
+  103  ls
+  104  cd
+  105  ls
+  106  cd Downloads/
+  107  clear
+  108  ls
+  109  cat new_user_credentials.csv
+  110  aws configure
+  111  clear
+  112  aws s3 mb s3://vprofile-artifact-storage
+  113  aws configure
+  114  aws s3 mb s3://vprofile-artifact-storage
+  115  aws s3 mb s3://jprofile-artifact-storage
+  116  cd /d
+  117  ls
+  118  cd vprofile-project-aws-LiftAndShift/
+  119  ls
+  120   cd target/
+  121  clear
+  122  ls
+  123  aws s3 cp vprofile-v2.war s3://jprofile-artifact-storage/vprofile-v2.war
+  124  aws s3 ls
+  125  aws s3 ls s3://jprofile-artifact-storage
+  126  ssh -i awskey.pem ec2-user@43.205.194.209
+  127  chmod 777 aws.pem
+  128  ssh -i awskey.pem ec2-user@43.205.194.209
+  129  ssh -i aws.pem ec2-user@43.205.194.209
+  130  ssh -i aws.pem ec2-user@65.1.132.53
+  131  ssh -i aws.pem ubuntu@13.127.144.195
+  132  ssh -i aws.pem ubuntu@13.232.40.253
+  133  ssh -i aws.pem ubuntu@13.232.40.253
+  134  ssh -i aws.pem ubuntu@13.232.40.253
+  135  ssh -i aws.pem ec2-user@13.232.9.40
+  136  ssh -i aws.pem ec2-user@13.232.9.40
+  137  ssh -i aws.pem ec2-user@3.110.210.32
+  138  ssh -i aws.pem ubuntu@13.232.120.236
+  139  ssh -i aws.pem ubuntu@35.154.164.31
+  140  ssh -i aws.pem ec2-user@3.110.148.169
+  141  ssh -i aws.pem ec2-user@3.110.148.169
+  142  ssh -i aws.pem ubuntu@13.233.184.89
+  143  ssh -i aws.pem ubuntu@13.232.109.81
+  144  ssh -i aws.pem aws-ec2@3.110.213.22
+  145  ssh -i aws.pem aws-ec2@3.110.213.22
+  146  chmod 777 aws.pem
+  147  ssh -i aws.pem aws-ec2@3.110.213.22
+  148  ssh -i aws.pem ec2-user@3.110.213.22
+  149  ssh -i aws.pem ubuntu@3.7.254.161
+  150  ssh -i aws.pem ubuntu@3.7.254.161
+  151  ssh -i aws.pem ubuntu@3.7.254.161
+  152  ssh -i aws.pem ubuntu@13.233.199.69
+  153  clear
+  154  voice is not audible
+  155  clear
+  156  git init
+  157  touch jogeeswar.txt
+  158  git status
+  159  git add .
+  160  git status
+  161  git commit -m "added new file"
+  162  git push
+  163  git push origin master
+  164  git clone https://github.com/jogeeswarbabu/new_work.git
+  165  git push origin master
+  166  git rm -rf .git
+  167  git rm -rf
+  168  git rm -rf .git
+  169  rm -rf .git
+  170  git init
+  171  git clone https://github.com/jogeeswarbabu/new_work.git
+  172  touch newfile
+  173  touch newfile
+  174  git init
+  175  git clone https://github.com/jogeeswarbabu/new_work.git
+  176  git push origin master
+  177  history
+  178  git remote add origin https://github.com/jogeeswarbabu/new_work.git
+  179  git push origin master
+  180  git push -u origin main
+  181  git push -u origin master
+  182  git config --global jogeeswarbabu
+  183  git config --global njogeeswar@gmail.com
+  184  clear
+  185  git config --global user.name “jogeeswarbabu”
+  186
+  187  git config --global user.email “njogeeswar@gmail.com”
+  188  git push -u origin master
+  189  git rebase
+  190  git rebase master
+  191  git reset new_work
+  192  git status
+  193  git add .
+  194   git rm --cached new_work
+  195  rm -rf .git
+  196  ls
+  197  git init
+  198  clear
+  199  git add .
+  200  git clone https://github.com/jogeeswarbabu/new_work.git
+  201  git coomit -m "new_work added"
+  202  git push origin master
+  203  git remote add origin https://github.com/jogeeswarbabu/new_work.git
+  204  git push origin master
+  205  git push origin main
+  206  git add .
+  207  git push origin master
+  208  rm -rf .git
+  209  git init
+  210  git clone https://github.com/jogeeswarbabu/aws-devops-zero-to-hero.git
+  211  touch one
+  212  git add .
+  213  git commit -m "added files"
+  214  git push origin master
+  215  git config --global user.name “jogeeswarbabu”
+  216  git config --global user.name “jogeeswarbabu”
+  217  git config --global user.email “njogeeswar@gmail.com”
+  218  touch jogee
+  219  git add .
+  220  git commit -m "added jogee file"
+  221  git push origin main
+  222  touch babu
+  223  git status
+  224  git checkout babu
+  225  git checkout main
+  226  git add .
+  227  git reset babu
+  228  git status
+  229  touch hari
+  230  git add .
+  231  git commit -m "hari file added"
+  232  git log
+  233  git status  c07aa02
+  234  git status
+  235  git reset c07aa02
+  236  git status
+  237  touch harinath
+  238  git add .
+  239  git status
+  240  git commit -m "newfile added"
+  241  git status
+  242  git log
+  243  git reset 52d513c2
+  244  ls
+  245  git status
+  246  git brach dev
+  247  git branches
+  248  git branch
+  249  git branch -ls
+  250  git checkout dev
+  251  git branch dev
+  252  git checkout dev
+  253  touch file1
+  254  git add .
+  255  git commit -m "added file1 on dev branch"
+  256  git push origin dev
+  257  touch file2
+  258  git add .
+  259  git commit -m "file2 added"
+  260  git push origin dev
+  261  git checkout main
+  262  git merge dev
+  263  git push origin main
+  264  git branch uat
+  265  git chechout uat
+  266  touch file3
+  267  git checkout uat
+  268  touch file3
+  269  git add .
+  270  git commit -m "third file added on uat branch"
+  271  git push origin uat
+  272  git checkout dev
+  273  git merge uat
+  274  git checkout main
+  275  git merge dev
+  276  git push origin main
+  277  touch file4
+  278  git add .
+  279  git commit -m "file4 added on main"
+  280  git checkout dev
+  281  touch file5
+  282  git add .
+  283  git commit -m "file5 added on dev"
+  284  git checkout main
+  285  git merge dev
+  286  git push origin main
+  287  git checkout dev
+  288  touch file6
+  289  git add .
+  290  git commit -m "file6 added on dev branch"
+  291  git log
+  292  git checkout main
+  293  git cherry-pick a0d53c4
+  294  git push main
+  295  git push origin main
+  296  git tag
+  297  git tag v1.0
+  298  git push origin v1.0
+  299  git tag v1.1
+  300  git log
+  301  git add v1.0
+  302  git add .
+  303  git commit -m "verson 1 tag added on main branch"
+  304  touch file7
+  305  git add .
+  306  git commit -m "file7 added on main branch"
+  307  git log
+  308  git tag 2dfe1af
+  309  git tag v1.1 2dfe1af
+  310  git tag v2.0 2dfe1af
+  311  git push origin v2.0
+  312  history
